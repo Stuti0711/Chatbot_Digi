@@ -6,7 +6,7 @@ import os
 logging.basicConfig(level=logging.INFO)
 
 # Set up Gemini API Key (Replace with your API Key)
-genai.configure(api_key="AIzaSyDtQMyk7q0z9v2pj21lbRMf7NuJAJt4C9A")  # Store key in environment variables for security
+genai.configure(api_key="API_KEY")  # Store key in environment variables for security
 
 def load_company_data(file_path="digiflex_chatbot_complete_data.txt"):
     """Load company data from a local text file."""
